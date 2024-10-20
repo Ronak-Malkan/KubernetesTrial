@@ -1,0 +1,40 @@
+/* TodoList container */
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Heading 1 */
+h1 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Todo item */
+.todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Todo item checkbox */
+.todo-item input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Todo item text */
+.todo-item span {
+    font-size: 16px;
+}
+
+/* Todo item delete button */
+.todo-item button {
+    background-color: transparent;
+    border: none;
+    color: red;
+    cursor: pointer;
+    margin-left: 10px;
+}
